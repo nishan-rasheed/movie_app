@@ -42,7 +42,7 @@ class CastScreen extends StatelessWidget {
                     Container(
                       height: maxHeight*.3,
                       decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10),
+                        borderRadius: BorderRadius.circular(10 ),
                         image: DecorationImage(fit: BoxFit.fill,
                           image:NetworkImage(snapshot.data![index].person!.image!.original.toString()))
                       ),
